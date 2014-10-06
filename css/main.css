@@ -24,13 +24,13 @@ header a:link, header a:visited {
 	padding-left: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	transition: all 0.5s;
 }
 
 header a:hover, header a:focus {
 	text-decoration: underline;
 	color: #FFFFFF;
 	background-color: #CC0000;
-	padding
 }
 
 .tag-line {
@@ -47,11 +47,15 @@ header a:hover, header a:focus {
 	max-height: 400px;
 	float: left;
 	margin-right: 1em;
-	opacity: 0.7;
+	opacity: 0.8;
+	transition: all 1s;
+
 }
 
 #about img:hover {
-	opacity: 1;
+	opacity: 1.0;
+	transform: rotate(720deg) scale(1.1, 1.1);
+	box-shadow: 10px 10px 5px #888888;
 }
 
 #education {
