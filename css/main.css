@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
@@ -30,4 +31,37 @@ header a:hover, header a:focus {
 	color: #FFFFFF;
 	background-color: #CC0000;
 	padding
+}
+
+.tag-line {
+	font-family: 'Gloria Hallelujah' 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 120%;
+	color: #FCFCFC;
+}
+
+#about, #projects {
+	background-color: #388B44;
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+	opacity: 0.7;
+}
+
+#about img:hover {
+	opacity: 1;
+}
+
+#education {
+	clear: both;
+}
+
+#education, #contact {
+	background-color: #F3B133;
+}
+
+footer {
+	background-color: #D82726;
 }
